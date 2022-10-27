@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "test01mod:tanzanite"
+    }
+  },
+  "result": {
+    "item": "test01mod:tanzanite_block"
+  }
+}

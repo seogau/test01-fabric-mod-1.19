@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "test01mod:tanzanite_block",
+    "test01mod:tanzanite_ore",
+    "test01mod:deepslate_tanzanite_ore",
+    "test01mod:endstone_tanzanite_ore",
+    "test01mod:netherrack_tanzanite_ore"
+  ]
+}
