@@ -2,6 +2,7 @@ package net.gaun.test01mod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gaun.test01mod.Test01_Mod;
+import net.gaun.test01mod.item.custom.EightBallItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -14,12 +15,15 @@ public class ModItems {
 
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.TANZANITE).maxCount(1)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Test01_Mod.MOD_ID, name), item);
     }
 
     public static void registerModItem(){
+
         Test01_Mod.LOGGER.debug("Registering Mod Items for " + Test01_Mod.MOD_ID);
     }
 }
