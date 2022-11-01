@@ -3,6 +3,7 @@ package net.gaun.test01mod;
 import net.fabricmc.api.ModInitializer;
 import net.gaun.test01mod.block.ModBlocks;
 import net.gaun.test01mod.item.ModItems;
+import net.gaun.test01mod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,5 +17,7 @@ public class Test01_Mod implements ModInitializer {
 
 		ModItems.registerModItem();
 		ModBlocks.registerModBlocks();
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
 	}
 }

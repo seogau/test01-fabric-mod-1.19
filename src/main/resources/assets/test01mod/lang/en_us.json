@@ -15,5 +15,7 @@
   "block.test01mod.tanzanite_lamp": "Tanzanite Lamp",
   "block.test01mod.eggplant_crop": "Eggplant Crop",
 
-  "itemGroup.test01mod.tanzanite": "Tanzanite Test Tab"
+  "itemGroup.test01mod.tanzanite": "Tanzanite Test Tab",
+
+  "entity.minecraft.villager.jumpmaster": "Jump Master"
 }
