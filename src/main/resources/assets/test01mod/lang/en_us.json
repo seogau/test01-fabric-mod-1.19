@@ -2,6 +2,9 @@
   "item.test01mod.raw_tanzanite": "Raw Tanzanite",
   "item.test01mod.tanzanite": "Tanzanite",
   "item.test01mod.eight_ball": "Eight Ball",
+  "item.test01mod.eggplant_seeds": "Eggplant Seeds",
+  "item.test01mod.eggplant": "Eggplant",
+
 
   "block.test01mod.tanzanite_block": "Block of Tanzanite",
   "block.test01mod.tanzanite_ore": "Tanzanite Ore",
@@ -10,6 +13,7 @@
   "block.test01mod.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
   "block.test01mod.jumpy_block": "Jumpy Block",
   "block.test01mod.tanzanite_lamp": "Tanzanite Lamp",
+  "block.test01mod.eggplant_crop": "Eggplant Crop",
 
   "itemGroup.test01mod.tanzanite": "Tanzanite Test Tab"
 }
